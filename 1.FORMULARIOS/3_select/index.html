@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>input radio</title>
+</head>
+<body>
+    <form action="">
+        <div>
+            <label for="">Nome:</label>
+            <input type="text" id="nome" placeholder="Digite aqui seu nome" required>
+            
+        </div>
+
+        <!-- input radio -->
+        <div>
+            <p>Escolha o time que você torce:</p>
+
+            <div>
+                <input type="radio" id="nenhum" name="time">
+                <label for="nenhum">Nenhum</label>
+                <div>
+                </div>
+                
+                    <input type="radio" id="são paulo" name="time">
+                    <label for="são paulo">são paulo</label>
+                
+            </div>
+            <div>
+                <input type="radio" id="corinthians" name="time">
+                <label for="corinthians">corinthians</label>
+            </div>
+            <div>
+
+                <!-- select -->
+                <div>
+                    <label for="turma">Escolha sua turma:</label>
+                    <select name="turma" id="turma">
+                        <option disabled setected>Selecione...</option>
+                        <option value="01ta">TI01TA</option>
+                        <option value="01tb">TI01TB</option>
+                        <option value="01tc">TI01TC</option>
+
+                    </select>
+                </div>
+        
+
+        <button>Enviar</button>
+        </form>
+</body>
+</html>
