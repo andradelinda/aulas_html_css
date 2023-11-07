@@ -1,12 +1,16 @@
+* {
+    margin: 0;
+}
+
 div {
     border: 4px dotted #00f;
     width: fit-content;
     font-size:24px;
 
-    padding-top: 10px;
+    /* padding-top: 10px; 
     padding-right: 20px;
     padding-bottom: 30px;
-    padding-left: 40px;
+    padding-left: 40px; */
 
 
     /* shorthand */
@@ -27,4 +31,22 @@ div {
     padding-block: 20px;
 
 
+}
+
+h1 {
+   border: 1px solid #f00; 
+   margin-bottom: 20px;
+   
+}
+
+.algum {
+    margin-bottom: 100px;
+}
+
+.ultimo {
+    margin-top: 50px;
+}
+
+.outro {
+    margin-inline:auto ;
 }
